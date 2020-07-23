@@ -200,7 +200,6 @@ body {
   margin: 20px;
   padding: 20px;
   line-height: 40px;
-  
 }
 .title {
   color: #141029;
@@ -208,14 +207,14 @@ body {
   font-weight: 600;
   font-size: 20px;
   letter-spacing: -0.4px;
-  line line-height: 28px;
+  line-height: 28px;
   opacity: 0.8;
 }
-.description{
-    color: #141029;
-    opacity: 0.6;
-    font-family: monserrat;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: left;
+.description {
+  color: #141029;
+  opacity: 0.6;
+  font-family: monserrat;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
 }
