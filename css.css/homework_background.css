@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family: inherit;}
+  
+  input: ::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button: ::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul il{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font size: inherit;font weight: 400;}
+
+  /*......................*/
+  .colored{
+      margin: 0 auto  ;
+      background: url(https://static.tildacdn.com/tild3630-3237-4562-b438-306333653837/spiration-light.png) scroll;
+      width: 800px;
+      height: 100%;
+      overflow-y: auto;
+
+  }
+
+
+  .text-centre{
+      font-family: FreeMono, monospace;
+      font-size: 20px;
+      color: rgb(192,192,192);
+      text-align: center
+      
+     
+  }
+  .another-header{
+      font-family: "Marker Felt", fantasy;
+      font-size: 30px;
+      text-align: center;
+
+  }
+  .imgCenter{
+      text-align: center;
+     
+
+  }
+  .image{
+    border: 10px solid white;
+    box-shadow: 0 0 10px #000;
+  }
+  .first-text{
+      font-family: monospace;
+      font-size: 10px;
+      margin: 70px;
+      line-height: 20px;
+      
+  }
+  .list{
+      font-family: monospace;
+      font-size: 10px;
+      line-height: 20px;
+      margin-left: 70px;
+      margin-top: 5px;
+  }
+  .list li{
+      background: url(https://c7.hotpng.com/preview/457/819/579/checkbox-check-mark-checklist-clip-art-green-tick.jpg) left no-repeat;
+      background-size: 20px;
+      padding: 0 0 0 20px;
+      list-style: none;
+      
+  }
+  .line-two{
+      font-style: italic;
+      color: green;
+  }
+  .line-three{
+      font-style: bold;
+      font-weight: bold;
+  }
+  .line-four{
+      color: grey;
+      text-decoration: line-through;
+      margin-bottom: 20px;
+  }
+  .click{
+      background: green;
+      color: ivory;
+      height: 100px;
+    border-radius: 15px;
+    margin-left: 70px;
+    
+
+  }

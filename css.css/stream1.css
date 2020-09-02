@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-boxs;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background-image: url(https://freehtmlthemes.ru/assets/images/articles/css-fon.jpg);
+  min-height: 793px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list li + li {
+  padding-left: 50px;
+}
+.login {
+  padding-right: 44px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.menu__list a {
+  opacity: 0.5;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 3s;
+}
+
+.menu__list a:hover {
+  opacity: 1;
+}
+.sign-up {
+  text-transform: uppercase;
+  color: darkmagenta;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 8px 43px;
+  border-radius: 20px;
+}

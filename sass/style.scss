@@ -1,0 +1,49 @@
+// это комментарий, который не отобразится в css
+
+$fz: 80px;
+
+%tplborder {
+  border-bottom: 5px dashed red;
+}
+
+@mixin fontz($f, $c) {
+  font-size: 100px;
+  color: $c;
+}
+
+.block {
+  width: 300px / 960px * 100%;
+  background-color: grey;
+  padding: 30px;
+  font-size: 50px;
+  line-height: 60px;
+  > p {
+    color: red;
+  }
+
+  .block__text {
+    font-size: 80px;
+    span {
+      color: green;
+    }
+  }
+  &.block--big {
+    font-size: $fz;
+  }
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+  .block & {
+    font-size: $fz;
+  }
+  &:hover {
+    color: green;
+  }
+  @extend %tplborder;
+}
+.link-2 {
+  @extend %tplborder;
+  @include fontz(100px, green);
+}

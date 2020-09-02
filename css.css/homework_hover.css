@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family: inherit;}
+  
+ input: ::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button: ::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul il{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font size: inherit;font weight: 400;}
+
+  /*......................*/
+
+  .main{
+      background-color: rgb(184, 178, 178);
+      width: 100%;
+      height: 100%;
+
+  }
+  
+  .body{
+      padding: 20px 30px 50px 50px;
+     
+  }
+  .list li{
+    list-style: none;
+    line-height: 30px;
+    font-family: monospaces;
+    font-size: 25px;
+  }
+  .list li::before {
+      content: '\2714';
+      padding-right: 5px;
+      color: green;
+  }
+.list li:first-child{
+    text-decoration: line-through;
+}
+.list li:nth-child(2){
+    font-weight: bold;
+}
+.list li:nth-child(3){
+    font-style: italic;
+}
+.list li:last-child{
+    text-transform: uppercase;
+}
+.list li:first-child:hover{
+    text-decoration: none;
+}
+.list li:nth-child(2):hover,
+.list li:nth-child(2):hover::before{
+    color: red;
+}
+.list li:nth-child(3):hover{
+    font-style: normal;
+}
+.list li:last-child:hover{
+    text-transform: none;
+}
+.textbutton{
+    border-radius: 35px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: seagreen;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0px 0px 30px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+.textbutton:hover{
+    background-color: steelblue;
+}
+.textbutton:active{
+    background-color: darkgreen;
+}
+.textinput{
+    height: 40px;
+    width: 200px;
+    background-color:white;
+    margin: 0 0 50px 35px;
+   
+}
+.textinput:focus{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+.block{
+    margin-left: 40px;
+    line-height: 20px;
+
+}
+.block p{
+    margin-bottom: 20px;
+}
+.block p:first-child::first-line{
+color: red;
+}
+.block p:last-child::first-letter{
+    color: red;
+}

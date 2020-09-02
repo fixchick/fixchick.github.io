@@ -1,0 +1,9 @@
+@import "nullstyle.scss";
+@import ulr(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+body {
+  font-family: Lato;
+}
+
+.about {
+}

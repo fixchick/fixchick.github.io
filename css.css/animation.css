@@ -1,0 +1,19 @@
+.content__circle {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  animation-name: white-circle;
+  animation-duration: 2s;
+}
+
+@keyframes white-circle {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 500px;
+  }
+}

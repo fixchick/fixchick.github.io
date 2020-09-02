@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  lang="ru">
+  <head></head>
+  <body>
+    <h1>Олежка, пройди, пожалуйста, эту анкету, иначе не получишь ужин</h1>
+
+    <form action="#" method="get" enctype="multipart/form-data"></form>
+    <div>
+      <input
+        placeholder="напиши свое имя"
+        type="text"
+        name="username"
+        value=""
+      />
+    </div>
+
+    <br />
+    <div>
+      <input
+        placeholder="напиши фамилию"
+        type="text"
+        name="username"
+        value=""
+      />
+    </div>
+
+    <br />
+    <input
+      placeholder="даже не пытайся сюда что-то ввести"
+      disabled
+      type="password"
+      name="userpass"
+      value=""
+    />
+    <p>Выбери свой пол</p>
+    <div>
+      <p>
+        <input tabindex="1" type="radio" name="gender" value="male" />Мужской
+      </p>
+      <p>
+        <input tabindex="1" type="radio" name="gender" value="male" />Мужской
+      </p>
+    </div>
+    <br />
+    <div>
+      <p>
+        <input checked disabled type="checkbox" name="love" value="yes" />Люблю
+        Аню
+      </p>
+    </div>
+    <br />
+    <p>Выбери любимую Анину фотку</p>
+    <div>
+      <p><input type="file" name="foto" /></p>
+    </div>
+    <br />
+    <label for="text">Напиши что хочешь про Аню</label>
+    <div>
+      <textarea id="text" name="text" cols="30" rows="10"></textarea>
+    </div>
+    <br />
+    <p>Выбери лучшие Анины черты характера</p>
+    <br />
+    <div>
+      <select name="traits">
+        <option value="one">Аня любит меня</option>
+        <option value="two">Аня умненькая</option>
+        <option value="three">Аня красотка</option>
+        <option value="four">Аня остроумная</option>
+        <option value="five">Аня красиво поет</option>
+        <option value="six">аня великолепно танцует</option>
+        <option value="seven">Не смог выбрать одно, выбираю все</option>
+        ></select
+      >
+    </div>
+
+    <br />
+    <div>
+      <button type="submit">отправить</button>
+      <button type="reset">очистить</button>
+    </div>
+  </body>
+</html>

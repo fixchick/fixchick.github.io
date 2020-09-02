@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family: inherit;}
+  
+  input: ::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button: ::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul il{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font size: inherit;font weight: 400;}
+
+  /*......................*/
+  body{
+      font-family: Arial, "Helvetica Neue", sans-serif;
+      padding: 150px 30px 30px 30px;
+      background: url(https://media.istockphoto.com/vectors/seamless-vector-background-with-retro-cars-pattern-with-vintage-cars-vector-id511068576) center no-repeat fixed;
+  }
+
+  .list{
+      margin: 0 0 50px 0;
+  }
+
+  .list li{
+      font-size: 24px;
+      margin: 0 0 15px 0;
+
+  }
+.block{
+    background: #18b5a4;
+    background-color: rgba(129, 45, 211, 0.2);
+
+    background: url(https://avatars.mds.yandex.net/get-pdb/195449/21dd8bb4-f0df-408c-8151-16de8352ac57/s1200);
+
+    background: url(https://png.pngtree.com/png-vector/20190226/ourlarge/pngtree-vector-background-seamless--retro-music-sound-png-image_704917.jpg) center  no-repeat;
+    background: url(https://st.depositphotos.com/1030956/4912/v/450/depositphotos_49122873-stock-illustration-%D1%8F%D1%80%D0%BA%D0%B8%D0%B5-pacman-%D1%82%D0%B5%D0%BC%D0%B0-%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD.jpg) 0 0 no-repeat, url(https://png.pngtree.com/png-vector/20190226/ourlarge/pngtree-vector-background-seamless--retro-music-sound-png-image_704917.jpg) center  no-repeat;
+
+
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000;
+}
