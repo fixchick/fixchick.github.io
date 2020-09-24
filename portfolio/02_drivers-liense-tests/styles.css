@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet");
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz_container {
+    background-color: honeydew;
+    border-radius: 10%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    max-width: 100%;
+
+}
+.quiz_header {
+    padding: 2rem;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+ui li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: gray;
+    width: 100%;
+    margin: 0.5rem;
+    border-radius: 5%;
+}
